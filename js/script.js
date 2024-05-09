@@ -70,9 +70,7 @@
               actualizarCarritoVisual()
             }
           })
-          .catch(error => {
-            console.error("Error al obtener los datos del JSON:", error)
-          })
+
       }
     
       function cargarProductosDelStorage() {
