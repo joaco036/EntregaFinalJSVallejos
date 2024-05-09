@@ -1,7 +1,3 @@
-fetch("../productos/productos.json")
-    .then(res => res.json())
-    .then(data => console.log(data))
-
     document.addEventListener("DOMContentLoaded", function() {
       let carritoAbierto = true
       let carritoDiv = null
