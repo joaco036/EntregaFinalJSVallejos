@@ -53,7 +53,7 @@
       }
     
       function agregarProducto(nombreProducto) {
-        const rutaJson = "../productos/productos.json"
+        const rutaJson = "../productos/productos.json:1"
         fetch(rutaJson)
           .then(response => response.json())
           .then(data => {
